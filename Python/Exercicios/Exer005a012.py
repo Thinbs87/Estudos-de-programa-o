@@ -1,0 +1,21 @@
+n1 = int(input('Digite o primeiro numero: '))
+n2 = int(input('Digite o segundo numero: '))
+n3 = int(input('Digite o terceiro numero: '))
+print(f'A soma entre {n1}, {n2} e {n3} é igual a {n1 + n2 + n3}')
+print(f'A multiplicação entre {n1}, {n2} e {n3} é igual a {n1 * n2 * n3}')
+print(f'A média entre {n1}, {n2} e {n3} é igual a {(n1 + n2 + n3) / 3}')
+print(f'O maior valor entre {n1}, {n2} e {n3} é igual a {max(n1, n2, n3)}')
+print(f'O menor valor entre {n1}, {n2} e {n3} é igual a {min(n1, n2, n3)}')
+print(f'O numero antecessor do maior numero de {max(n1,n2,n3)} é {max(n1,n2,n3)-1} e o sucessor do maior numero de {max(n1,n2,n3)} é {max(n1,n2,n3)+1}')
+print(f'O dobro do menor numero de {min(n1,n2,n3)} é {min(n1,n2,n3) * 2} , o triplo do menor numero de {min(n1,n2,n3)} é {min(n1,n2,n3) * 3} e a raiz quadrada do menor numero de {min(n1,n2,n3)} é {min(n1,n2,n3) ** (1/2)}')
+print(f'Se o numero médio entre {n1},{n2}e{n3} for em metros ele será em centimetros {((n1 + n2 + n3) / 3) * 100} e em milimetros {((n1 + n2 + n3) / 3) * 1000} e em kilometros {((n1 + n2 + n3) / 3) / 1000}')
+print(f'A tabuada do numero menor de {min(n1,n2,n3)} é:')
+for i in range(1, 11):
+    print(f'{min(n1,n2,n3)} x {i} = {min(n1,n2,n3) * i}')
+print(f'Se o maior numero for um valor em reais, {max(n1,n2,n3)} em dolares será de acordo com a cotação atual de 1 dolar = 5,20 reais, o valor em dolares será {max(n1,n2,n3) / 5.20}')
+print(f'Se o segundo maior numero {sorted([n1,n2,n3])[1]} é a largura de uma parede e {max(n1,n2,n3)} é a altura da parede, a area da parede será {sorted([n1,n2,n3])[1] * max(n1,n2,n3)}, sabendo que uma lata de tinta pinta 2 metros quadrados, a quantidade de latas de tinta necessárias para pintar a parede será {((sorted([n1,n2,n3])[1] * max(n1,n2,n3)) / 2)}')
+print(f' O maior numero {max(n1,n2,n3)} em binario é {bin(max(n1,n2,n3))} , em octal é {oct(max(n1,n2,n3))} e em hexadecimal é {hex(max(n1,n2,n3))}')
+print(f'O menor numero {min(n1,n2,n3)} é o preço de uma blusa e tenho o desconto de 5% , o valor do desconto será de {min(n1,n2,n3) * 0.05} e o valor final da blusa será de {min(n1,n2,n3) - (min(n1,n2,n3) * 0.05)}')
+print(f'O maior número {maior} em binário é {bin(maior)}, '
+      f'em octal é {oct(maior)} e '
+      f'em hexadecimal é {hex(maior)}.')
