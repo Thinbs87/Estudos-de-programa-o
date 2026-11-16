@@ -1,32 +1,38 @@
 @charset 'UTF-8';
 
 
-body{
+body {
     background-color: rgb(146, 249, 133);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    }
+}
 
-    /* Inicio Cabeçalho*/
+/* Inicio Cabeçalho*/
 
 header {
     color: white;
     background-image: linear-gradient(to bottom, rgb(85, 160, 85) 50%, darkgreen);
-    }
+}
 
 h1 {
     margin-top: 0;
     text-align: center;
     padding-top: 10px;
     font-weight: lighter;
-    }
+}
 
-header > p {
+header>p {
     text-align: center;
     padding-bottom: 10px;
 }
-
-header > a {
+/* Fim Cabeçalho*/
+/* Menu */
+nav {
+    background-color: green;
+    padding-top: 0;
+    margin-top: 0;
+}
+nav > a {
     color: white;
     text-decoration: none;
     padding: 10px;
@@ -34,45 +40,46 @@ header > a {
     font-weight: bold;
 }
 
-header > a:hover {
+nav > a:hover {
     text-decoration: underline;
     background-color: rgb(0, 72, 0);
     padding-bottom: 0;
 }
-
-    /* Fim Cabeçalho*/
+/* Inicio do Artigo*/
 
 article {
     background-color: white;
     margin: 40px;
-    }
+}
 
 @font-face {
     font-family: 'Droidefonte';
     src: url(fontes/idroid.otf) format(opentype);
-    }
+}
 
-h2, h3{
+h2,
+h3 {
     color: green;
     font-family: 'Droidefonte';
     margin-left: 10px;
-    }
+}
 
 h3 {
     background-image: linear-gradient(to right, lightgreen, white);
-    }
+}
 
 p {
     text-indent: 30px;
     text-align: justify;
-    margin: 10px ;
+    margin: 10px;
 }
 
 .destaque {
     color: darkgreen;
     font-weight: bold;
 }
-a{
+
+a {
     color: green;
     font-weight: bold;
 }
@@ -84,15 +91,57 @@ article img {
     margin: auto;
 }
 
+.video {
+    background-color: darkgreen;
+    padding: 20px;
+}
+
+.video iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+}
+
+/* Inicio do extra */
+
+#extra>aside {
+    background-color: rgb(200, 241, 200);
+    border-radius: 10px;
+    margin: 40px;
+}
+
+h4 {
+    text-align: left;
+    color: white;
+    background-color: green;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+}
+
 ul {
     columns: 2;
     list-style: none;
-    }
+}
 
 li::before {
     content: '✔';
-    }
+}
 
-mark {
-    color: green;
-    }
+/*Fim do Extra*/
+
+/*Incio Rodapé*/
+
+footer {
+    background-color: darkgreen;
+    text-align: center;
+    margin: auto;
+    font-size: small;
+}
+
+.assinatura {
+    color: white;
+}
+
+/*Fim do Rodapé*/
