@@ -3,14 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Papel de Parede</title>
+    <title>Teste de imagem de fundo</title>
     <style>
+        .quadrado {
+            display: inline-block;
+            border: 3px solid black;
+            border-radius: 30px;
+            width: 200px;
+            height: 200px;
+            background-color: gray;
+            box-shadow: 2px 2px rgba(0, 0, 0, 0.262);
+        }
+
         body {
-            background-image: url('imagens/wallpaper001.jpg');
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+
+        #q1 {
+            background-color: aqua;
+        }
+
+        #q2 {
+            background-image:linear-gradient(to bottom, darkblue, rgb(196, 23, 190));
+        }
+
+        #q3 {
+            background-image: url(imagens/pattern001.png);
         }
     </style>
 </head>
 <body>
-    <h1>Papel de parede</h1>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+        
+    </div>
+    
 </body>
 </html>
