@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronatuta</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        /*Shorthand
+            background: cor imagem repetição posição / tamanho fixação;*/
+        #container {
+            height: 100vh;
+            background: black url(imagens/espaco.jpg) no-repeat center center / 100vh fixed;
+            background-size: 100% 100%;
+            position: relative;
+        }
+
+        #conteudo {
+           height: 500px;
+            background-image: url(imagens/astronauta.png);
+            background-size: 100% 100%;
+            width: 500px;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+    
+</body>
+</html>
