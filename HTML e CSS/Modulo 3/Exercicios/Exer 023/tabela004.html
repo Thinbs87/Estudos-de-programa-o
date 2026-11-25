@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de filmes</title>
+    <Style>
+        table {
+            width: 500px;
+            height: 300px;
+            border-collapse: collapse;
+        }
+
+        tr, th, td {
+            border: 1px solid;
+        }
+    </Style>
+</head>
+<body>
+    <table>
+        <caption><strong>Filmes Favoritos</strong></caption>
+        <thead>
+            <tr>
+                <th scope="col">Sexo</th>
+                <th scope="col">Nome</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Feminino</th>
+                <td>Fabiana Matos</td>
+                <td>Senhor do Aneis</td>
+                <td>Harry Potter</td>
+                <td>Não Sei</td>
+            </tr>
+            <tr>
+                <td>Rosemary Chung</td>
+                <td>Filme 1</td>
+                <td>Filme 2</td>
+                <td>Filme 3</td>
+            </tr>
+            <tr>
+                <td>Francisca da Silva</td>
+                <td>Filme 1</td>
+                <td>Filme 2</td>
+                <td>Filme 3</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Masculino</th>
+                <td>Thiago Navarro</td>
+                <td>Oldboy</td>
+                <td>Batman</td>
+                <td>Amelie Poulain</td>
+            </tr>
+            <tr>
+                <td>Marcio Barbosa</td>
+                <td>Gattaca</td>
+                <td>Chocolate</td>
+                <td>Morango</td>
+            </tr>
+            <tr>
+                <td>Rafael Barbosa</td>
+                <td>Bobão</td>
+                <td>Corrida</td>
+                <td>Luta</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
