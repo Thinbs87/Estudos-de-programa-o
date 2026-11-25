@@ -10,14 +10,14 @@ O objetivo é registrar minha evolução nos estudos de programação, organizar
 
 - [x] Algoritmos e Lógica de Programação
 - [x] Bases Numéricas
-- [x] HTML5 e CSS3 — Módulo 1
+- [x] HTML5 e CSS3 — Módulo 1 a 3
 - [x] Python 3 — Mundo 1
 - [x] Git e GitHub
 
 ## 🚀 Cursos em andamento
 
 - [ ] Python 3 — Mundo 2
-- [ ] HTML5 e CSS3 — Módulo 2
+- [ ] HTML5 e CSS3 — Módulo 4
 
 ---
 
